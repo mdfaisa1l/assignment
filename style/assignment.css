@@ -1,10 +1,171 @@
-.bennar-title{
-    padding-left: 50px;
-    padding-bottom: 40px;
-    color: blueviolet;
+*{
+
+    margin: 0;
+    padding: 0;
 }
+ /*Banner section */
+ .bennar-image{
+    width: 1600px;
+    height: 808;
+ }
+
 .bennar{
-    background-image: url(../image/bannar/banner1.png);
-     height: 100vh;
-     
+    position: relative;
+    margin-bottom: 130px;
 }
+.bennar-description{
+    text-align: right;
+    position: absolute;
+    bottom: 165px;
+    right: 170px;
+}
+
+.bennar-description h1 {
+    font-weight: 700px;
+    font-size: 65px;
+    line-height: 70px;
+    margin-bottom: 25px;
+    color: black;
+}
+.bennar-description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    color: #444343;
+}
+
+/* Button primary */
+
+.btn-primary {
+    background-color: rgb(236, 241, 246);
+    border-radius: 5px;
+    padding: 18px 35px;
+    color: #005fac;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+/* second-bennar */
+.second-bennar{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    max-width: 1072px;
+    margin: 50px auto;
+    margin-bottom: 130px;
+}
+
+.bennar-text{
+    margin-top: 100px;
+}
+.bennar-text h2{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 25px;
+}
+
+.bennar-text p {
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.bennar-text ul {
+    line-height: 26px;
+    color: #444343;
+}
+/*second-bennar-ok */
+
+/* thierd section */
+.My-Plans  {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.plane-Container{
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.plane-Containere h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.plane-Container p {
+    font-weight: 500;
+    font-size: 25px;
+    color: 737272;
+}
+.Four-image {
+    background: linear-gradient(90deg, 005fac 0%,
+    rgba(0, 95, 172, 0)100%), url(../image/watch.png);
+    max-width: 1140;
+    height: 300px;
+    background-size: cover;
+    color: white;
+    align-items: center;
+    margin: 0px auto;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.Four-image h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.Four-image-text {
+    text-align: left;
+    position: absulute;
+    left: 65px;
+    top: 59px;
+}
+/* Footer */
+.Contact {
+    display: flex;
+    gap: 330px;
+    background: #151414;
+    color: white;
+    padding: 130px 230px;
+}
+.Contact-title {
+    text-align: left;
+}
+.Contact-title h3 {
+font-weight: 700;
+font-size: 45px;
+color: #f8f8f8;
+margin-bottom: 25px;
+}
+.submit-area {
+    font-size: 25px;
+}
+.email {
+    margin-bottom: 16px;
+    margin-top: 30px;
+    border-radius: 4px;
+    width: 280px;
+    padding: 20px;
+}
+.btn-second {
+    background: #00ac31;
+    border-radius: 8px;
+    padding: 16px 35px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+.img-gap{
+    margin-right: 17px;
+}
+
