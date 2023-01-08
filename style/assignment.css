@@ -104,9 +104,8 @@
     font-size: 25px;
     color: 737272;
 }
-.Four-image {
-    background: linear-gradient(90deg, 005fac 0%,
-    rgba(0, 95, 172, 0)100%), url(../image/watch.png);
+.Gradient {
+    background: linear-gradient(90deg, 005fac 0%, rgba(0, 95, 172, 0)100%), url(../image/watch.png);
     max-width: 1140;
     height: 300px;
     background-size: cover;
@@ -117,12 +116,12 @@
     margin-bottom: 130px;
 }
 
-.Four-image h2 {
+.Gradient h2 {
     font-size: 40px;
     margin-bottom: 25px;
 }
 
-.Four-image-text {
+.Gradient-text {
     text-align: left;
     position: absulute;
     left: 65px;
@@ -155,11 +154,11 @@ margin-bottom: 25px;
     width: 280px;
     padding: 20px;
 }
-.btn-second {
-    background: #00ac31;
+.btn-primary-1 {
+    background:#ed3608;
     border-radius: 8px;
     padding: 16px 35px;
-    color: white;
+    color: aqua;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
