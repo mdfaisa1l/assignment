@@ -1,0 +1,10 @@
+.bennar-title{
+    padding-left: 50px;
+    padding-bottom: 40px;
+    color: blueviolet;
+}
+.bennar{
+    background-image: url(../image/bannar/banner1.png);
+     height: 100vh;
+     
+}
